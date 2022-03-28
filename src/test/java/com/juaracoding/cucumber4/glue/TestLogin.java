@@ -44,7 +44,7 @@ public class TestLogin {
 	
 	@After
 	public void closeBrowser() {
-	//	driver.quit();
+		driver.quit();
 	}
 	
 	@Given("Customer mengakses url")
